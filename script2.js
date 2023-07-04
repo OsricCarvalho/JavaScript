@@ -72,7 +72,51 @@
 //     }
 // }
 
-const numbers = [45, 4, 9, 16, 25];
-for (a in numbers) {
-    console.log (numbers)
-      }
+// const numbers = [45, 4, 9, 16, 25];
+// for (a in numbers) {
+//     console.log (numbers)
+//       }
+
+// function square(g,fname,lname){
+//         return g+fname+lname;
+//         }
+//         let output = square( "hello my name is ", "osric ", " cravalho")
+//         console.log(output)
+
+    // function Math (a,b,c)
+    // {
+                
+    //     if (c === "Addition")
+    //     {
+    //      return a+b;
+    //     }
+    //     else if (c === "Multiplication")
+    //     {
+    //       return a*b;
+    //     }
+    //     else if (c === "Division")
+    //     {
+    //      return a/b;
+    //     }
+    //     else if (c === "Subtraction")
+    //     {
+    //     return a-b;
+    //      }
+                                                
+    // }
+    // let output = Math(1,2, "Addition");
+    // console.log(output)
+
+let x = 0;
+let y = 1;
+let output;
+
+for (let i = 0 ; i<10; i++)
+{
+   
+ output = x + y;
+     x=y;
+    y=output;       
+    console.log(output)
+}
+          
